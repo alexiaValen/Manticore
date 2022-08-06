@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS parent_db;
+CREATE DATABASE parent_db;
