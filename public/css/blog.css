@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px 20px 10px 20px ;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    background-color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav a {
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: purple;
+}
+
+section{
+    padding: 20px;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+main p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+aside ul{
+    padding: 0px 20px 0px 20px ;
+}
+
+aside p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 0px 20px 0px 20px ;
+}
+
+aside ul li {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    background-color: #333;
+}
+
+footer p, ul li {
+    color: whitesmoke;
+}
+
+footer a {
+    color: whitesmoke;
+    padding: 0px 10px 0px 10px;
+}
