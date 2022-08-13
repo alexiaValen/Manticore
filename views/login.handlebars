@@ -1,7 +1,7 @@
-
-<header class="jumbotron jumbotron-flud p-3 mb-2 bg-primary>.bg-primary">
+<body class="container-fluid" >
+    <header class="jumbotron jumbotron-flud p-3 mb-2 bg-primary>.bg-primary">
         <h1 class="display-1 text-center">Welcome to Parent View</h1>        
-</header>
+    </header>
 
     <main>
         <div class="pl-3">
@@ -16,12 +16,22 @@
                         <h2>Sign Up</h2>
                     </div>
                     <div class="list-group"  style="background-color: SteelBlue">
-                    <p style="color: White">First Name: <input type="text" id="firstName" class="d-flex justify-content-evenly" placeholder="Enter your first name"></p>
-                    <p style="color: White">Last Name:  <input type="text" id="lastName"  class="d-flex justify-content-evenly" placeholder="Enter your last name"></p>
-                    <p style="color: White">Email:      <input type="text" id="emailFirst" class="d-flex justify-content-evenly" placeholder="Enter your email"></p>
-                   
-                    <p style="color: White">Password:   <input type="text" id="passwordFirst" class="d-flex justify-content-evenly" placeholder="Enter your password"></p>
-                    <p style="color: White">Confirm Password:   <input type="text" id="passwordConfirm" class="d-flex justify-content-evenly" placeholder="Confirm your password"></p>
+                        <form>
+                            <label for="firstName" style="color: white">First Name</label> <br>
+                            <input type="text" id="firstName" placeholder="Enter your first name"> <br>
+                            <label for="lastName" style="color: white">Last Name</label> <br>
+                            <input type="text" id="lastName" placeholder="Enter your last name"> <br>
+                            <label for="email" style="color: white">Email</label> <br>
+                            <input type="text" id="email" placeholder="Enter your email"> <br>
+                            <label for="password" style="color: white">Password</label> <br>     
+                            <input type="password" id="password" placeholder="Enter your password">
+                            <i id="visibilityBtn"><span id="eye1"class="material-symbols-outlined">visibility</span></i> <br>
+                            <label for="confirmPassword" style="color: white">Confirm Password</label> <br>
+                            <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                            <i id="visibilityBtn2"><span id="eye2" class="material-symbols-outlined">visibility</span></i> <br>
+                            <input type="button" id="submit" style="width: 100%" value="Sign Up">
+                        </form>
+                  
                     <div id="g_id_onload"
                         data-client_id="YOUR_GOOGLE_CLIENT_ID"
                         data-login_uri="https://your.domain/your_login_endpoint"
@@ -34,17 +44,19 @@
                         data-text="sign_in_with"
                         data-shape="rectangular"
                         data-logo_alignment="left">
-                    </div>                    
-                    <input type="button" id="submit2" class="my-1"value="Sing Up">
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <img src="../public/assets/images/loginSignUpPage.jpg" alt="loginSignUpPage">
+                    <img src="./public/assets/images/loginSignUpPage.jpg" alt="loginSignUpPage">
                 </div>
             </div>
         </div>
         </secton>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="./public/js/login.js"></script> 
+</body> 
 
-<script src="../public/js/login.js"></script>
