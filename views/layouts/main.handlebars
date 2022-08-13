@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parent View</title>
-  <link rel="stylesheet" href="/css/jass.css">
+ <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <link rel = "stylesheet" href = "../../public/css/rest.css">  
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>  
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../public/css/login.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <title>Parent View</title>
 </head>
 
 <body>
   <header class="display-flex justify-space-between align-center p-2">
     <h1>
-      User Signup
+      Parent View
     </h1>
     <!-- Only display the logout button if the user is logged in -->
     {{#if logged_in}}
@@ -29,7 +35,8 @@
 
   <!-- Only include the logout script if the user is logged in -->
   {{#if logged_in}}
-  <script src="/js/logout.js"></script>
+  <script src="../../public/js/logout.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
   {{/if}}
 </body>
 
