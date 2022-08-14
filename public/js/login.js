@@ -7,7 +7,7 @@ const loginFormHandler = async (event) => {
     const email = document.querySelector('#email-login').value.trim();
     const password = document.querySelector('#password-login').value.trim();
     const {OAuth2Client} = require('google-auth-library');
-
+ 
     const client = new OAuth2Client(CLIENT_ID);
 
     if (email && password) {
@@ -47,4 +47,6 @@ const loginFormHandler = async (event) => {
   document
     .querySelector('.login-form')
     .addEventListener('submit', loginFormHandler);
+   
+    
   
