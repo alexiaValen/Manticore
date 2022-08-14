@@ -31,7 +31,7 @@ toggleVisibility2 = () => {
 }
 
 toggleVisibility3 = () => {
-    const password1Input = document.getElementById('password1');   
+    const password1Input = document.getElementById('password-login');   
     const eye3 = document.getElementById('eye3'); 
     if (password1Input.type  === 'password') {
         password1Input.type = 'text';       
