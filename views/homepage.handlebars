@@ -1,10 +1,50 @@
-{{#each users as |user| }}
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{{get_emoji}}} {{user.name}}</h2>
-  </div>
-  <div class="col-md-6">
-    <h3><a href="mailto:{{user.email}}">{{user.email}}</a></h3>
-  </div>
+
+<div class="container-fluid">
+    <header class="jumbotron jumbotron-flud p-3 mb-2 bg-primary>.bg-primary">
+        <h1 class="display-1 text-center">Parent View</h1>  
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/login.php">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/register.php">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/login.php">Community</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/logout.php">Logout</a>
+                </li>
+            </ul>
+        </nav>      
+    </header>
+
+    <main class="container-fluid ">
+        <section class="mt-5 pt-5">
+            <div class="d-flex flex-row ">
+                <div class="col-sm">     
+                    <div class="card-header text-center " style="width: 25rem">                    
+                        <h2>Resources</h2>                    
+                    </div>
+                    <div class="list-group" ><img src="./assets/images/Resources.jpg" style="width: 25rem"></div>
+                </div>
+                <div class="col-sm">
+                    <div class="card-header" style="width: 29.5rem">
+                        <h2 class="text-center">Events</h2>
+                    </div>
+                    <div class="list-group"><img src="./assets/images/Events.jpg"style="width: 29.5rem"></div>
+                </div>
+                <div class="col-sm">
+                    <div class="card-header" style="width: 23rem">
+                        <h2 class="text-center">Community</h2>                    
+                </div>
+                    <div class="list-group"><img src="./assets/images/Community.jpg" style="width: 23rem"></div>
+                </div>
+            </div>  
+        </section>
+    </main>
 </div>
-{{/each}}
+
