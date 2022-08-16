@@ -70,9 +70,13 @@ WHEN this project is added to students individual Module2.
 --- 
 
 
-Viedo Tutorial:  
+Video Tutorial:  
 
-Heroku link:  https://dashboard.heroku.com/apps/glacial-sierra-66630
+Heroku App link:  https://dashboard.heroku.com/apps/glacial-sierra-66630
+
+Heroku Site Deployed link: https://glacial-sierra-66630.herokuapp.com/
+
+https://glacial-sierra-66630.herokuapp.com/login
 
 GitHub link: https://github.com/alexiaValen/Manticore
 
