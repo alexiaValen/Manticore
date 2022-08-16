@@ -7,7 +7,7 @@ console.log(visibilityBtn3);
 
 
 toggleVisibility = () => {
-    const passwordInput = document.getElementById('passwords');   
+    const passwordInput = document.getElementById('passwordSignup');   
     const eye1 = document.getElementById('eye1'); 
     if (passwordInput.type  === 'password') {
         passwordInput.type = 'text';       
