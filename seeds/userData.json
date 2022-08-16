@@ -34,6 +34,12 @@
       "lastName": "Addison",
       "email": "sonny.m.addison@hotmail.com",
       "password": "password12345"
+    },
+    {
+      "firstName": "Alexia",
+      "lastName": "Valenzuela",
+      "email": "alexia@hotmail.com",
+      "password": "password12345"
     }
     
   ]
