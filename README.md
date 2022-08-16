@@ -1,31 +1,31 @@
 # Manticore
  ## Description
-
+Parent View the only place needed for finding various parent resources, events and community.
 
   
-
 ## User Sory
 
-AS A  
-I WANT   
-SO THAT 
+
+AS A Parent 
+I WANT access to resources, family friendly activies and events and a parent community   
+SO THAT I can utilize these to builp up my ability to be better at parenting in the ways that fits my family best.
 
 
 ## Acceptance Criteria
 
-GIVEN   
-WHEN 
-THEN   
-WHEN  
-THEN 
-WHEN  
-THEN   
-WHEN 
-THEN   
-WHEN 
-THEN 
-WHEN   
-THEN 
+Criteria Given in assignment is met    
+WHEN Node.js and Express.js is used to create a RESTful API
+WHEN Handlebars.js is the templating engine  
+WHEN MySQL and Sequalize ORM are used for the database  
+WHEN Get and Post routes are used for retrieving and adding new data
+WHEN Project is deployed using Heroku with the data
+WHEN the site is polished with the UI design.
+WHEN the site is responsive and interactive to the user input.
+WHEN authentication is used for express-session and cookies.
+WHEN API Keys and sensitive information and environmental variables are protected
+WHEN repository is clean with quality coding standards.
+WHEN project has quality README.
+WHEN this project is added to students individual Module2. 
   
 
 ---
@@ -72,16 +72,23 @@ THEN
 
 Viedo Tutorial:  
 
+Heroku link:  https://dashboard.heroku.com/apps/glacial-sierra-66630
 
-Heroku link:  
+GitHub link: https://github.com/alexiaValen/Manticore
+
 
 
 
 ---
 ## Credits
 
+Team Manticore members:
+Sonny M. Addison
+Alexia Valenzuela
+Precious Eneagu
+Laura Sandura
 
-  
+UofA Bootcamp Material and instructors David Fuka and Joey Brown
   
 ---
 ## License
