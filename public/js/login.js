@@ -32,6 +32,8 @@ const loginFormHandler = async (event) => {
     const lastName = document.querySelector('#lastName').value.trim();
     const email = document.querySelector('#emailSignup').value.trim();
     const password = document.querySelector('#passwordSignup').value.trim();
+
+    console.log(firstName, lastName, email, password)
   
     if (firstName && lastName && email && password) {
       const response = await fetch('/api/users', {
