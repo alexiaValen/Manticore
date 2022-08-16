@@ -50,6 +50,7 @@ const loginFormHandler = async (event) => {
     }
   };
 
+
   const googleLogin = async (event) => {
     event.preventDefault();
 
