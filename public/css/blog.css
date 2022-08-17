@@ -1,0 +1,299 @@
+
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px 20px 10px 20px ;
+}
+
+h3{
+    color: rgb(239, 108, 47);
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.blogSection img{
+    width: 335px;
+    height: 230px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0 #000002;
+    transition: .3s ease box-shadow;
+}
+
+.blogSection img:hover{
+    box-shadow: 0px 0px 15px 0 #000002;
+    width: 375px;
+    height: 260px;
+}
+
+/* nav start */
+ .navContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 36px;
+}
+
+nav a:hover{
+    color: rgb(239, 108, 47);
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(239, 108, 47);
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+/* nav end */
+/* create a post start */
+
+textArea{
+   border: none;
+   margin-top: 17px;
+   outline: none;
+   font-size: 18px;
+   width: 500px;
+   height: 100px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 600px;
+    margin-left: 7px;
+}
+
+.privacy{
+    margin-top: 38.08px;
+    display: flex;
+}
+
+.post{
+    width: 65%;
+}
+
+.post header{
+    font-size: 30px;
+    font-weight: 600px;
+    padding: 17px 0;
+    border-left: 50px;
+    
+}
+
+.post form :where(.content, .details, .privacy){
+    display: flex;
+    align-items: center;
+}  
+
+form button{
+    width: 100%;
+    margin-top: 5px;
+    height: 0px;
+    border: none;
+    background-color: transparent; 
+    color: #b9b9b9;   
+    border-radius: 2px;
+}
+
+.postBtn{
+    width: 100%;
+    margin-top: 25px;
+    height: 33px;
+    border: none;
+    background-color: #e2e5f0; 
+    color: #b9b9b9;   
+    border-radius: 2px;
+}
+
+form textarea:valid ~ .postBtn:hover{
+    background-color: rgb(239, 108, 47); 
+    color: #ffffff; 
+    
+}
+
+form .options .list li{
+    border-radius: 50%;
+    background-color: #e4e6eb;
+    text-align: center;
+    margin-left: 28px;
+    width: 30px;
+    
+}
+
+
+.options .list li:hover{
+    background: #f0f1f4;
+}
+
+.list{
+    list-style: none;
+    margin: 5px;
+    display: flex;
+    float: right;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  .emojiModal{
+    font-size: 30px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%; 
+    font-size: 20px;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.themeEmoji{
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+}
+
+.add{
+    font-size: 17px;
+    font-weight: 600px;
+    position: absolute;
+}
+
+form .options{
+    text-align: justify;
+    height: 47px;
+    border-radius: 7px;
+    border: 1px solid #b9b9b9;
+   
+}
+
+
+/* create a post end */
+
+section{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+main p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+aside ul{
+    padding: 0px 20px 0px 20px ;
+}
+
+aside p{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 0px 20px 0px 20px;
+}
+
+aside ul li {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 60px;
+    padding: 0 5vw;
+    background-color: rgb(239, 108, 47);
+}
+
+
+footer a {
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 25px;
+
+}

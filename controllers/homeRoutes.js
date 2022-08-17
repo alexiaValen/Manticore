@@ -32,7 +32,48 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-// Sent to Events page
+// Resources page
+router.get('/resources', async (req, res) => {
+  try {
+    res.render('resources', {loggedIn: req.session.LoggedIn});
+  } catch (err) {
+    console.log(err)
+    res.status(500).json(err);
+  }
+} );
+// Events Page
+router.get('/events', async (req, res) => {
+  try {
+    res.render('events', {loggedIn: req.session.LoggedIn});
+  } catch (err) {
+    console.log(err)
+    res.status(500).json(err);
+  }
+} );
+
+// Community Page
+router.get('/community', async (req, res) => {
+  try {
+    res.render('community', {loggedIn: req.session.LoggedIn});
+  } catch (err) {
+    console.log(err)
+    res.status(500).json(err);
+  }
+} );
+
+// Home Page
+router.get('/homepage', async (req, res) => {
+  try {
+    res.render('homepage', {loggedIn: req.session.LoggedIn});
+  } catch (err) {
+    console.log(err)
+    res.status(500).json(err);
+  }
+} );
+
+
+
+    
 
 
 

@@ -1,0 +1,166 @@
+<div class="container-fluid">
+    <header class="jumbotron jumbotron-flud p-3 mb-2 bg-primary>.bg-primary">
+        <h1 class="display-1 text-center">Parent View</h1> 
+         
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./community">Community</a>
+                </li>
+                <li class="btn" id='logout' type="submit">Logout</li>    
+            </ul>
+        </nav>      
+    </header>
+
+
+<img src="../assets/img/PV Logo - Copy.PNG" alt="PV blog logo" style="width:145px;height:150.97px; float:left; margin-left: 192px; margin-top: 12px;">
+
+        <!-- header end -->
+        <!-- create a post start -->
+        <div>
+            <div class="wrapper">
+                <section class="post">
+                    <header>Create Blog</header>
+                    <form action="#">
+                        <div class="content">
+                            <img src="../assets/img/IMG_2120_Facetune_12-04-2022-00-05-21.jpg" alt="Precious Eneagu" style="height:52px;border-radius: 17px;">
+                            <div class="details">
+                                <p><em>Involved Mom</em></p>
+                            </div>
+                                <div class="privacy" style="margin-left:28px;background:#e3e5eb; font-size: 11.85px;cursor:pointer;">
+                                    <i class="fa-solid fa-user-group"></i>
+                                    Blogs you follow
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </div>
+                        </div>
+                        <textarea placeholder="What's on your mind today?" required></textarea>
+                        <div class="themeEmoji">
+                            <li><i class="fa-solid fa-face-grin-beam" style="color: grey;"></i></li>
+                            <li><i class="fa-solid fa-brush" style="color:orange ;"></i></li>
+                        </div>
+                        <div class="options">
+                            <p class="add">Add to your Post</p>
+                            <ul class="list">
+                                <li><button id="myImg"><i class="fa-solid fa-images" style="color:rgb(76, 186, 76);"></i></button></li> 
+                                
+
+
+                                <li><button><i class="fa-solid fa-user-tag" style="color:rgb(113, 113, 219) ;"></i></button></li>
+                                <li><button id="myBtn"><i class="fa-solid fa-face-grin-beam" style="color: rgb(227, 209, 47)"></i></button></li>
+                                <div id="myModal" class="modal">
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <p>
+                                            <button class="emojiModal"><span>&#128514;</span></button>
+                                            <button class="emojiModal"><span>&#128513;</span></button>
+                                            <button class="emojiModal"><span>&#128151;</span></button>
+                                            <button class="emojiModal"><span>&#128125;</span></button>
+                                            <button class="emojiModal"><span>&#128545;</span></button>
+                                            <button class="emojiModal"><span>&#128546;</span></button>
+                                            <button class="emojiModal"><span>&#128077;</span></button>
+                                            <button class="emojiModal"><span>&#128078;</span></button>
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <li><button><i class="fa-solid fa-pen" style="color: rgb(230, 56, 56);"></i></button></i></li>
+                                <li><button><i class="fa-solid fa-ellipsis" style="color: rgb(84, 82, 82);"></i></button></i></li>
+                            </ul>
+                            <button class="postBtn">Post</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <!-- create a post end -->
+
+
+
+
+<!-- test -->
+
+
+<!-- <button id="myBtn">Open Modal</button>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div> -->
+
+<!-- test -->
+
+
+
+        <div class="aside" style="margin-left:100px;"><aside>
+            <h3>Latest News</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus natus voluptatem eligendi distinctio ut quo repudiandae ab alias numquam velit, labore sunt ratione nobis perspiciatis, minus voluptas porro quam voluptates.</p>
+            <hr>
+            <div class="recentPost">
+                <h3>Recent Updated Blogs</h3>
+                <ul>
+                    <li><a href="https://www.parents.com/parenting/better-parenting/advice/new-parent-fears/">New Parent? DON'T freak out!</a></li>
+                    <br>
+                    <li><a href="https://www.betterhealth.vic.gov.au/health/healthyliving/Parenting-children-through-puberty#:~:text=You%20can%20help%20your%20child,after%20your%20own%20needs%20too.">Puberty and your Teen, what to do!</a></li>
+                    <br>
+                    <li><a href="https://www.zocdoc.com/primary-care-doctors">Best PCPs in your area</a></li>
+                    <br>
+                    <li><a href="https://www.move.org/moving-deals-discounts/">Moving? These deals could help!</a></li>
+                    <br>
+                    <li><a href="https://www.verywellfamily.com/solutions-for-sibling-fighting-and-rivalry-620104">Sibling wars? Here's how to minimize it!</a></li>
+                </ul>
+            </div>
+        </aside></div>
+
+        <main>
+            <div class="blogSection" style="margin-top:47px;">
+                <br>
+                <h2>Why "Me Time" as a parent is so important!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloribus enim ducimus facere reiciendis. Velit voluptatibus quia laborum sapiente beatae ullam doloribus maiores quae optio, recusandae quod nam quas molestias?</p>
+                <a href="#"><img src="../assets/img/metime.jpg" alt="metime" style="width:335px;height:230px;"></a>
+            <br>
+                <h2>Troubles with your teen?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloribus enim ducimus facere reiciendis. Velit voluptatibus quia laborum sapiente beatae ullam doloribus maiores quae optio, recusandae quod nam quas molestias?</p>
+                <a href="#"><img src="../assets/img/teenager.jfif" alt="teenager"></a>
+            
+            <br>
+                <h2>Proudly Prideful child and how to support them.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloribus enim ducimus facere reiciendis. Velit voluptatibus quia laborum sapiente beatae ullam doloribus maiores quae optio, recusandae quod nam quas molestias?</p>
+                <a href="#"><img src="../assets/img/proudpride.jfif" alt="proudpride"></a>
+            <br>
+                <h2>Be more involved in your child's learning!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloribus enim ducimus facere reiciendis. Velit voluptatibus quia laborum sapiente beatae ullam doloribus maiores quae optio, recusandae quod nam quas molestias?</p>
+                <a href="#"><img src="../assets/img/readingtime.jfif" alt="reading time"></a>
+            <br>
+                <h2>How to choose the <em>perfect</em> daycare.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloribus enim ducimus facere reiciendis. Velit voluptatibus quia laborum sapiente beatae ullam doloribus maiores quae optio, recusandae quod nam quas molestias?</p>
+                <a href="#"><img src="../assets/img/download.jfif" alt="daycare"></a>
+            <br>
+                <h2>Public school or Private school; Tips on deciding what is best for your family.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non doloribus enim ducimus facere reiciendis. Velit voluptatibus quia laborum sapiente beatae ullam doloribus maiores quae optio, recusandae quod nam quas molestias?</p>
+                <a href="#"><img src="../assets/img/privatevspublic.jfif" alt="private vs public schools"></a>
+            </div>      
+        </main>
+
+            
+        <footer>
+            <a href="#">Contact Us</a>
+            <a href="#">Our Mission</a>
+            <a href="#">Careers</a>
+            <a href="#">Donate</a>
+        </footer>
+    </div>
+    <script src="../js/blog.js"></script
