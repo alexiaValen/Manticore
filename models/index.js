@@ -1,3 +1,8 @@
 const User = require('./User');
+const Blog = require('./Blog');
 
-module.exports = { User };
+Blog.belongsTo (User, {
+    foreignKey: 'blog_id'
+});
+
+module.exports = { User, Blog };
