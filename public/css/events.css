@@ -66,7 +66,7 @@
     color: lightgray;
 }
 
-@media screen and (max-width: 1125px) {header, main, section {
+@media screen and (max-width: 1000px) {header, main, section {
       background: lightblue;
   }
 }
