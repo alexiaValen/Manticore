@@ -1,0 +1,675 @@
+[
+    {       "activitytype": "Animals",
+            "venue": "Desert Botanical Garden",
+            "city": "Phoenix",
+            "state": "AZ",       
+            "website": "https://dbg.org/visit/butterfly-pavilion/"
+             },
+             
+    {       "activitytype": "Animals",
+            "venue": "OdySea Aquarium",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://odyseaaquarium.com/"
+             },
+ 
+    {       "activitytype": "Animals",
+            "venue": "Butterfly Wonderland",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://butterflywonderland.com/"
+             },
+ 
+    {       "activitytype": "Animals",
+            "venue": "Phoenix Zoo",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://phoenixzoo.org/"
+             },
+ 
+    {       "activitytype": "Animals",
+            "venue": "Carter's Farm Mobile Petting Zoo",
+            "city": "Queen Creek",
+            "state": "AZ",
+            "website": "https://cartersfarmaz.com/"     
+            },
+ 
+    {       "activitytype": "Animals",
+            "venue": "Bearizona",
+            "city": "Williams",
+            "state": "AZ",
+            "website": "https://bearizona.com/"
+            },
+ 
+    {       "activitytype": "Animals",
+            "venue": "See Life Arizona Aquarium",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://visitsealife.com/arizona/"
+            },
+ 
+    {       "activitytype": "Archery",
+            "venue": "Archery Headquarters",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://archeryhq.com/ranges/"
+            },
+ 
+    {       "activitytype": "Art",
+            "venue": "Burst of Butterflies",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://burstofbutterflies.com/events-calendar/"
+             },
+            
+    {       "activitytype": "Art",
+            "venue": "Painting with a Twist",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://paintingwithatwist.com/studio/tempe/"
+             },
+            
+    {       "activitytype": "Batting Range",
+            "venue": "Kiwanis Recreation Center",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/community-recreation-centers/kiwanis-recreation-center/kiwanis-park-batting-range/"
+             },
+ 
+    {       "activitytype": "Boating",
+            "venue": "Kiwanis Recreation Center",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/community-recreation-centers/kiwanis-recreation-center/"
+             },
+ 
+    {       "activitytype": "Boating",
+            "venue": "Tempe Town Lake",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/classes-leagues/boating/"
+             },
+ 
+    {       "activitytype": "Bowling",
+            "venue": "AMF Temp Village Lanes",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://amf.com/location/amf-tempe-village-lanes/"
+             },
+ 
+    {       "activitytype": "Bowling",
+            "venue": "Bowlero",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://bowlero.com/location/bowlero-mesa/"
+             },
+ 
+    {       "activitytype": "Classes and Lessons",
+            "venue": "Mesa Arts Center",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaartscenter.com/"
+             },
+ 
+    {       "activitytype": "Classes and Lessons",
+            "venue": "City of Mesa Parks and Recreation",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/sports-programs/activity-guide/"
+             },
+ 
+    {       "activitytype": "Climbing",
+            "venue": "Focus Climbing Center",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://focusclimbingcenter.com/"
+             },
+ 
+    {       "activitytype": "Climbing",
+            "venue": "Climbmax Rock Gym",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://climbmaxrockgym.com/"
+             },
+ 
+    {       "activitytype": "Dancing",
+            "venue": "Scootin' Boots Dance Hall",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://scootinbootsdancehallmesa.com/"
+             },
+ 
+    {       "activitytype": "Dog Park",
+            "venue": "Chandlers Dog Parks",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://chandleraz.gov/explore/chandler-parks/guide/dog-parks/"
+             },
+ 
+    {       "activitytype": "Dog Park",
+            "venue": "The park at Mak Pack",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://makpackaz.com/azs-%231-indoor-dog-park-1/"
+             },
+ 
+    {       "activitytype": "Dog Park",
+            "venue": "Countryside Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/countryside-park/"
+             },
+ 
+    {       "activitytype": "Environment",
+            "venue": "Biosphere",
+            "city": "Oracle",
+            "state": "AZ",
+            "website": "https://biosphere2.org/"
+             },
+ 
+    {       "activitytype": "Eventbrite Events",
+            "venue": "Eventbrite",
+            "city": "n/a",
+            "state": "AZ",
+            "website": "https://www.eventbrite.com/d/united-states--arizona/family-friendly-events/"
+             },
+ 
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Urban Air Adventure Park",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://urbanair.com/arizona-ahwatukee/"
+             },
+ 
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Main Event",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://mainevent.com/locations/arizona/tempe/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Glow Put Mini Golf",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://glowputtaz.com/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "FatCats",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://fatcatsfun.com/mesa/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Amazing Jakes",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://jakesunlimited.com/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Castles n' Coasters",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://castlesncoasters.com/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Golfland",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://golfland.com/mesa/plan-your-visit/attractions/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Dave and Busters",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://daveandbusters.com/locations/tempe/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Golf Land",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://golfland.com/mesa/plan-your-visit/attractions/"
+             },
+    
+    {       "activitytype": "Family Entertainment Center",
+            "venue": "Chuck E. Cheese",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://locations.chuckecheese.com/us/az/chandler/2977-west-frye-rd."
+             },
+    
+    {       "activitytype": "Fishing",
+            "venue": "Greenfield Park Community Fishing Lake",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/greenfield-park/"
+             },
+    
+    {       "activitytype": "Fishing",
+            "venue": "Red Mountain Lake",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://azgfd.com/fishing/community/mesa/redmountain/"
+             },
+    
+    {       "activitytype": "Fishing",
+            "venue": "Riverview Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/riverview-park/"
+             },
+    
+    {       "activitytype": "Games",
+            "venue": "Laser Tag",
+            "city": "Flagstaff",
+            "state": "AZ",
+            "website": "https://flagtagaz.com/activities/laser-tag/"
+             },
+    
+    {       "activitytype": "Garden",
+            "venue": "Desert Botanical Garden",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://dbg.org/visit/garden-trails-galleries/"
+             },
+    
+    {       "activitytype": "Garden",
+            "venue": "Mesa Community College Rose Garden",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://rosegarden.mesacc.edu/"
+             },
+    
+    {       "activitytype": "Google Events",
+            "venue": "Google Events",
+            "city": "n/a",
+            "state": "AZ",
+            "website": "https://www.google.com/search?q=google+search+events&rlz=1C1CHBF_enUS914US914&ei=R674Yrb8EImJkPIPsMi0iAU&uact=5&oq=google+search+events&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQhgMyBQgAEIYDOgcIABBHELADSgQIQRgASgQIRhgAUPQCWM0GYNYIaAJwAXgAgAFoiAHKAZIBAzEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz&ibp=htl;events&rciv=evn&sa=X&ved=2ahUKEwiZ_byO8cX5AhWZDkQIHTapBy4Q8eoFKAJ6BAgCEA4*#htivrt=events&htidocid=L2F1dGhvcml0eS9ob3Jpem9uL2NsdXN0ZXJlZF9ldmVudC8yMDIyLTA4LTE0fDE3OTY0OTkxMTA0MzcyNTg1NjU1&fpstate=tldetail"
+             },
+    
+    {       "activitytype": "Groupon Events",
+            "venue": "Groupon Events Search",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://groupon.com/local/phoenix/kids-activities"
+             },
+    
+    {       "activitytype": "Hiking",
+            "venue": "A Mountain @ ASU",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tours.asu.edu/tempe/a-mountain/"
+             },
+    
+    {       "activitytype": "Hiking",
+            "venue": "Pima Canyon Trailhead",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://phoenix.gov/parks/trails/locations/south-mountain/trail-descriptions-and-map/"
+             },
+    
+    {       "activitytype": "Kids Out and About",
+            "venue": "Kids Out and About",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://phoenix.kidsoutandabout.com"
+             },
+    
+    {       "activitytype": "Movies",
+            "venue": "AMC",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://amctheatres.com/movie-theatres/phoenix/amc-superstition-east-12/"
+             },
+    
+    {       "activitytype": "Movies",
+            "venue": "Cinemark",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://cinemark.com/theatres/az-mesa/cinemark-mesa-16/"
+             },
+    
+    {       "activitytype": "Movies",
+            "venue": "Tempe Pollack Cinemas",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://pollacktempecinemas.com/"
+             },
+    
+    {       "activitytype": "Movies",
+            "venue": "Harkins Theatres",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://harkins.com/theatres/tempe-marketplace/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Idea Museum",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://ideamuseum.org/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Arizona Museum of Natural History",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://arizonamuseumofnaturalhistory.org/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Children's Museum of Phoenix",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://childrensmuseumofphoenix.org/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "The Mini Time Machine",
+            "city": "Tucson",
+            "state": "AZ",
+            "website": "https://theminitimemachine.org/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Musical Instrument Museum",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://mim.org/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Hall of Flame Museum of Firefighting",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://hallofflame.org/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Tempe History Museum",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/tempe-history-museum/"
+             },
+    
+    {       "activitytype": "Museums",
+            "venue": "Bisbee Mining & Historical Museum",
+            "city": "Bisbee",
+            "state": "AZ",
+            "website": "https://bisbeemuseum.org/"
+            },
+    
+    {       "activitytype": "Museums",
+            "venue": "Commemorative Air Force Airbase Arizona Museum",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://azcaf.org/"
+            },
+    
+    {       "activitytype": "Observatory",
+            "venue": "Lowell Observatory",
+            "city": "Flagstaff",
+            "state": "AZ",
+            "website": "https://lowell.edu/"
+             },
+    
+    {       "activitytype": "Parks",
+            "venue": "Kiwanis",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/Home/Components/FacilityDirectory/FacilityDirectory/120/1177?npage=3/"
+             },
+    
+    {       "activitytype": "Parks",
+            "venue": "Mesa Riverview Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/riverview-park/"
+             },
+    
+    {       "activitytype": "Parks",
+            "venue": "Kleinman Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/kleinman-park/"
+             },
+    
+    {       "activitytype": "Parks",
+            "venue": "Desert Breeze",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://desertbreezerr.com/"
+             },
+    
+    {       "activitytype": "Parks",
+            "venue": "Pioneer Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/pioneer-park/"
+             },
+    
+    {       "activitytype": "Parks",
+            "venue": "Railroad Park",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://scottsdaleaz.gov/parks/mccormick-stillman-railroad-park/"
+             },
+    
+    {       "activitytype": "Planetarium",
+            "venue": "Mesa Community College Planetarium",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesacc.edu/departments/physical-science/astronomy/planetarium/"
+             },
+    
+    {       "activitytype": "Raising Arizona Kids",
+            "venue": "Raising Arizona Kids Calendar",
+            "city": "n/a",
+            "state": "AZ",
+            "website": "https://raisingarizonakids.com/calendar/"
+             },
+    
+    {       "activitytype": "Shooting Range",
+            "venue": "Caswells Shooting Range",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://caswells.com/"
+             },
+    
+    {       "activitytype": "Shooting Range",
+            "venue": "All on Target",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://allontarget.com/az-locations/"
+             },
+    
+    {       "activitytype": "Skate Park",
+            "venue": "Kids That Rip",
+            "city": "Gilbert",
+            "state": "AZ",
+            "website": "https://kidsthatrip.com/"
+             },
+    
+    {       "activitytype": "Skating",
+            "venue": "Skateland",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://unitedskates.com/skateland-mesa/contact/"
+             },
+    
+    {       "activitytype": "Skating",
+            "venue": "Ice Den",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://icedenscottsdale.com/"
+             },
+    
+    {       "activitytype": "Skydiving",
+            "venue": "Adrenaline",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://adrenaline.com/"
+             },
+    
+    {       "activitytype": "Skydiving",
+            "venue": "Skydive Arizona",
+            "city": "Eloy",
+            "state": "AZ",
+            "website": "https://skydiveaz.com/"
+             },
+    
+    {       "activitytype": "Splash Pads",
+            "venue": "Pioneer Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/parks/pioneer-park/"
+             },
+    
+    {       "activitytype": "Splash Pads",
+            "venue": "The Cloud at Kiwanis Park",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/community-recreation-centers/kiwanis-recreation-center/pools-and-splash-play/the-cloud-at-kiwanis-park/"
+             },
+    
+    {       "activitytype": "Sports",
+            "venue": "Arizona Diamondbacks",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://mlb.com/dbacks/"
+             },
+    
+    {       "activitytype": "Sports",
+            "venue": "Phoenix Suns",
+            "city": "Phoenix",
+            "state": "AZ",
+            "website": "https://nba.com/suns/"
+             },
+    
+    {       "activitytype": "Sports",
+            "venue": "Arizona Coyotes",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://nhl.com/coyotes/"
+             },
+    
+    {       "activitytype": "Sports",
+            "venue": "TopGolf",
+            "city": "Scottsdale",
+            "state": "AZ",
+            "website": "https://topgolf.com/us/riverwalk/"
+             },
+    
+    {       "activitytype": "Sports",
+            "venue": "Mesa Tennis & Pickleball Center",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/sports-facilities/mesa-tennis-center/pickleball"
+             },
+    
+    {       "activitytype": "Swimming",
+            "venue": "Kiwanis Wave Pool",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/community-recreation-centers/kiwanis-recreation-center/kiwanis-pool"
+             },
+    
+    {       "activitytype": "Swimming",
+            "venue": "SunSplash",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://golfland.com/mesa/plan-your-visit/attractions/"
+             },
+    
+    {       "activitytype": "Swimming",
+            "venue": "Rhodes Aquatic Center",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/pools/rhodes/"
+             },
+    
+    {       "activitytype": "Tennis",
+            "venue": "Kiwanis Recreation Center",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://tempe.gov/government/community-services/community-recreation-centers/kiwanis-recreation-center/tennis/"
+             },
+    
+    {       "activitytype": "Theater",
+            "venue": "ASU Gammage Theater",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://asugammage.com/"
+             },
+    
+    {       "activitytype": "Theater",
+            "venue": "Childsplay Theatre Company",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://childsplayaz.org/"
+             },
+    
+    {       "activitytype": "Theater",
+            "venue": "JesterZ Improv",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://jesterzimprov.com/"
+             },
+    
+    {       "activitytype": "Theater",
+            "venue": "Hale Theatre",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://haletheatrearizona.com/Online/"
+             },
+    
+    {       "activitytype": "Ticketmaster Events",
+            "venue": "Ticketmaster",
+            "city": "Phoenix and Tucson",
+            "state": "AZ",
+            "website": "https://ticketmaster.com/discover/family"
+             },
+    
+    {       "activitytype": "Toys",
+            "venue": "Build-A-Bear Workshop",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://buildabear.com/locations?StoreID=66"
+             },
+    
+    {       "activitytype": "Toys",
+            "venue": "Legoland",
+            "city": "Tempe",
+            "state": "AZ",
+            "website": "https://legolanddiscoverycenter.com/arizona/"
+             },
+    
+    {       "activitytype": "Trains",
+            "venue": "Desert Breeze Railroad",
+            "city": "Chandler",
+            "state": "AZ",
+            "website": "https://desertbreezerr.com/train/"
+             },
+    
+    {       "activitytype": "Trampoline",
+            "venue": "Krazy Air Trampoline Park",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://krazyair.com/"
+             },
+
+    {       "activitytype": "wakeboarding",
+            "venue": "Rhodes Aquatic Complex and FlowRider",
+            "city": "Mesa",
+            "state": "AZ",
+            "website": "https://mesaparks.com/parks-facilities/pools/flowrider/"
+     }
+]
+
+
