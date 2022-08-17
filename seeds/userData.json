@@ -40,6 +40,12 @@
       "lastName": "Valenzuela",
       "email": "alexia@hotmail.com",
       "password": "password12345"
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Sandura",
+      "email": "emailbox118-info@yahoo.com",
+      "password": "password12345"
     }
     
   ]

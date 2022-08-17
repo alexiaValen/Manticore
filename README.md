@@ -93,6 +93,8 @@ Precious Eneagu
 Laura Sandura
 
 UofA Bootcamp Material and instructors David Fuka and Joey Brown
+
+Canva the free design tool version to make event page images.
   
 ---
 ## License
