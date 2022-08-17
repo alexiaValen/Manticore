@@ -6,17 +6,17 @@
     </header>
 
 <div class="container-fluid" >
-        <div class="pl-3">
-            <form class="form login-form"></form>
-            <div class="form-group">
-                <label for="email-login">Email:</label>            
-                <input type="text" id="email-login" placeholder="Enter your email">
-           
-                <label for="password-login">Password:</label>                    
-                <input type="password" id="password-login" placeholder="Enter your password">
-                <i id="visibilityBtn3" class="align-middle" style="margin-left: -40px"><span id="eye3"class="material-symbols-outlined">visibility</span></i>
-                <input type="button" id="submit" style="margin-left: 15px;" value="Log In">
-            </div>               
+        <div class="pl-3 mt-5">
+            <form class="form login-form">
+                <div class="form-group">
+                    <label for="email-login">Email:</label>            
+                    <input type="text" id="email-login" placeholder="Enter your email">         
+                    <label for="password-login">Password:</label>                    
+                    <input type="password" id="password-login" placeholder="Enter your password">
+                    <i id="visibilityBtn3" class="align-middle" style="margin-left: -40px"><span id="eye3"class="material-symbols-outlined">visibility</span></i>
+                    <input type="submit" id="submit" style="margin-left: 15px;" value="Log In">
+                </div> 
+            </form>              
         </div>
         <secton class="container">
             <div class="row justify-content-md-center">
@@ -25,35 +25,38 @@
                         <h2>Sign Up</h2>
                     </div>
                     <div class="list-group"  style="background-color: SteelBlue">
-                        <form>
+                        <form class='form signup-form'>
                             <label for="firstName" style="color: white; margin-left: .5em;">First Name</label> <br>
                             <input type="text" id="firstName" style="margin: .5em" placeholder="Enter your first name"> <br>
                             <label for="lastName" style="color: white; margin-left: .5em;">Last Name</label> <br>
                             <input type="text" id="lastName" style="margin: .5em" placeholder="Enter your last name"> <br>
                             <label for="email" style="color: white; margin-left: .5em;">Email</label> <br>
-                            <input type="text" id="email" style="margin: .5em" placeholder="Enter your email"> <br>
+                            <input type="text" id="emailSignup" style="margin: .5em" placeholder="Enter your email"> <br>
                             <label for="password" style="color: white; margin-left: .5em;">Password</label> <br>     
-                            <input type="password" id="passwords" style="margin: .5em" placeholder="Enter a password">
+                            <input type="password" id="passwordSignup" style="margin: .5em" placeholder="Enter a password">
                             <i id="visibilityBtn" class="align-middle" style="margin-left: -40px"><span id="eye1"class="material-symbols-outlined">visibility</span></i> <br>
                             <label for="confirmPassword" style="color: white; margin-left: .5em;">Confirm Password</label> <br>
                             <input type="password" id="password2" style="margin: .5em" placeholder="Confirm password">
                             <i id="visibilityBtn2" class="align-middle" style="margin-left: -40px"><span id="eye2" class="material-symbols-outlined">visibility</span></i> <br>
-                            <div class="row" style="margin-left: 10px; margin-top: 5px; margin-bottom: 15px">
-                                 <input type="button" id="submit"  style="width: 236px" value="Sign Up">
+                            <div class="row" style="margin-left: 10px; margin-top: 20px; margin-bottom: 23px">
+                                <input type="submit" id="submit2"  style="width: 236px" value="Sign Up">
                                      
-                                <div id="g_id_onload" style="margin-left: 5px";
-                                data-client_id="627237292426-4it0loe4m48ku2i3e1kv412mdeejp2mg.apps.googleusercontent.com"
-                                data-login_uri="http://localhost:3001/"
-                                data-auto_prompt="false">
-                                
+                                <div id="g_id_onload"
+                                    style="margin-left: 10px;"
+                                    data-client_id="627237292426-4it0loe4m48ku2i3e1kv412mdeejp2mg.apps.googleusercontent.com"
+                                    data-context="signin"
+                                    data-ux_mode="popup"
+                                    data-callback="verifyIdToken()"
+                                    data-auto_prompt="false">
                                 </div>
+
                                 <div class="g_id_signin"
-                                data-type="standard"
-                                data-size="large"
-                                data-theme="outline"
-                                data-text="sign_in_with"
-                                data-shape="rectangular"
-                                data-logo_alignment="left">
+                                    data-type="standard"
+                                    data-shape="rectangular"
+                                    data-theme="outline"
+                                    data-text="signup_with"
+                                    data-size="large"
+                                    data-logo_alignment="left">
                                 </div>
                             </div>
                         </form>

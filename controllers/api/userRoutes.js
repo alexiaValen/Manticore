@@ -1,6 +1,29 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
+
+//Creat new user
+router.post('/', async (req, res) => {
+  try {
+    const dbUserData = await User.create({
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      email: req.body.email,
+      password: req.body.password,
+    });
+
+    req.session.save(() => {
+      req.session.loggedIn = true;
+
+      res.status(200).json(dbUserData);
+    });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
+//Log in routes
 router.post('/login', async (req, res) => {
   try {
     // Find the user who matches the posted e-mail address
@@ -12,6 +35,8 @@ router.post('/login', async (req, res) => {
         .json({ message: 'Incorrect email or password, please try again' });
       return;
     }
+
+    console.log(userData);
 
     // Verify the posted password with the password store in the database
     const validPassword = await userData.checkPassword(req.body.password);
@@ -36,8 +61,10 @@ router.post('/login', async (req, res) => {
   }
 });
 
+
+
 router.post('/logout', (req, res) => {
-  if (req.session.logged_in) {
+  if (req.session.logged_in) {  
     // Remove the session variables
     req.session.destroy(() => {
       res.status(204).end();
