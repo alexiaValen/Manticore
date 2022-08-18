@@ -50,22 +50,22 @@ WHEN this project is added to students individual Module2
   ---  
     
 
+![Login Page](/public/assets/images/loginPage.jpg)  
+
+---  
+
+
 ![Home Page](/public/assets/images/homePage.jpg)  
 
 ---  
 
 
-![Notes Page](/public/assets/images/notePage.jpg)  
+![Resources Page](/public/assets/images/resourcesPage.jpg)  
 
 ---  
 
 
-![Notes Saved](/public/assets/images/notesSaved.jpg)  
-
----  
-
-
-![Notes Deleted](/public/assets/images/notesDeleted.jpg)  
+![Events Page](/public/assets/images/eventsPage.jpg)  
 
 --- 
 
