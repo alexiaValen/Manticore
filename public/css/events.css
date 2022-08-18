@@ -1,4 +1,4 @@
-* {
+.box {
     box-sizing: border-box;
     padding: 2px;
     margin: 1px;
@@ -26,7 +26,7 @@
     font-size: 2rem;
   }
 
-  header, p {
+  h2, p {
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(21, 21, 22);
@@ -47,7 +47,7 @@
     box-shadow:  3px 3px 5px 5px darkblue;;
   }
 
-  .body, section {
+  .section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,7 +63,7 @@
     height: 20%;
     padding: 30px;
     justify-content: center;
-    color: lightgray;
+    color: rgb(239, 108, 47);
 }
 
 @media screen and (max-width: 1000px) {header, main, section {

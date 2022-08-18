@@ -18,6 +18,24 @@ window.onclick = function(event) {
   }
 }
 
+let currentInput = document.getElementById('text1');
+
+function insertAtCursor(elem) {
+    let cursorPos = currentInput.selectionStart;
+    let v = currentInput.value;
+    let textBefore = v.substring(0, cursorPos);
+    let textAfter = v.substring(cursorPos, v.length);
+    currentInput.value = textBefore + elem.value + textAfter;
+    cursorPos += elem.value.length;
+    currentInput.focus();
+    currentInput.setSelectionRange(cursorPos, cursorPos);
+}
+document.getElementById("emoticons").addEventListener("click", function(e) {
+    if (e.target && e.target.nodeName == "BUTTON") {
+        insertAtCursor(e.target)
+        console.log("clicked.")
+    }
+});
 
 uploadInput.addEventListener('change', () => {
     uploadImage(uploadInput, "image");
