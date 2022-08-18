@@ -216,8 +216,8 @@ form .modal .modal-content li {
     background-color: transparent;
 } 
   
-  /* Modal Content/Box */
-  .modal-content{
+/*  Modal Content/Box */
+ .modal-content{
     background-color: #fefefe;
     margin: 15% auto; 
     padding: 22px;
