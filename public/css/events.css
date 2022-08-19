@@ -21,11 +21,6 @@
     box-shadow: 3px 3px 5px 5px darkblue;
   }
 
-  #lvenue, #levents {
-    border: 1;
-    font-size: 2rem;
-  }
-
   h2, p {
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,12 +29,6 @@
     font-weight: bolder;
     text-shadow: 3px 3px 5px darkblue;
     margin-top: 6px;
-  }
-
-  #shawdow  {
-    text-shadow: 3px 3px 5px darkblue;
-    flex-wrap: wrap;
-    display: flex;
   }
 
   #mysearch  {
