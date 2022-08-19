@@ -25,23 +25,23 @@
     </header>
   </div>  
     
-<div class="box">
-  <div id="mysearch">
+  <div id="mysearch" class="container">
     <span id="searchevents">   
       <img src="./assets/Images/Events_Banner.PNG" alt="Background Picture showing various activities and events" style="width:99%;height:400px;background-position: 0%;"></span>
         <h2>Venues and Events:</h2>
   </div>
     <section>
       <div id="mysearch" class="container">
-        <span id="localvenues"><img src="./assets/Images/LocalVenuesPic.PNG" alt="Words Local Venues with building image" style="width:50%;height:60%"></span>
+        <span id="vpics"><img src="./assets/Images/LocalVenuesPic.PNG" alt="Words Local Venues with building image" style="text-align:center; width:50%; height:60%"></span>
           <p>Select an option to get results</p>
             <select name="venue" id="venue">
-            <option value="activitytype">Activity Type</option>
-            <option value="city">City</option>
-            <option value="state">State</option>
-            <option value="venue">Venue Name</option>    
+            {{!-- Additional options will be enhancement, for now search by AZ to get list --}}
+            {{!-- <option value="activitytype">Activity Type</option> --}}
+            {{!-- <option value="city">City</option> --}}
+            <option value="AZ">AZ</option>
+            {{!-- <option value="venue">Venue Name</option>     --}}
             </select>
-              <a class = "btn"><button class="venuesearch" id="lvenue">Click to Get Results</button></a>
+              <a class = "btn"><button class="venuesearch" id="lvenue">Click to find local venues</button></a>
             </div>
       </section>
       {{!-- future development to seave or create new venue<section>
@@ -52,13 +52,33 @@
       </section> --}}
     <section>
      <div id="mysearch" class="container">
-        <span id="searchevents"><img src="./assets/Images/SearchEventsPic.PNG" alt="Words Search Events with map pin" style="width:50%;height:60%"> </span>
+        <span id="vpics"><img src="./assets/Images/SearchEventsPic.PNG" alt="Words Search Events with map pin" style="text-align:center; width:50%; height:60%"> </span>
           <p>Search activities and events online</p>
 {{!-- Google Programmable search engine with database links --}}
             <script async src="https://cse.google.com/cse.js?cx=7516cfc4d0e364efe"></script>
           <div class="gcse-search"></div>
       </div>
     </section>
+    <section>
+        <div id="mysearch" class="container"><div class="list-group"></div>
+          <p>Add new venue activities here</p>
+            <form style="background-color: lightgray" 'events signup-form' id="eventsform">
+            <label for="activityType" style= "color:  black; text-shadow: 3px 3px 5px darkblue">Activity Type</label> <br>
+            <input type="text" id="acttype" size="40" style="width: 200px; margin-left: 5em" placeholder="Activity type (aka park)"> <br>
+            <label for="venueName" style= "color:  black; text-shadow: 3px 3px 5px darkblue">Venue</label> <br>
+            <input type="text" id="vName" size="40" style="width: 200px; margin-left: 5em" placeholder="Business name"> <br>
+            <label for="venueCity" style= "color:  black; text-shadow: 3px 3px 5px darkblue">City</label> <br>
+            <input type="text" id="vCity" size="40" style="width: 200px; margin-left: 5em" placeholder="City"> <br>
+            <label for="venueState" style="color:  black; text-shadow: 3px 3px 5px darkblue">State</label> <br>     
+            <input type="text" id="vState" size="40" style="width: 200px; margin-left: 5em"  placeholder="State abbreviation"><br>
+            <label for="venueWebsite" style= "color:  black; text-shadow: 3px 3px 5px darkblue">Website</label> <br>
+            <input type="url" id="vWeb" size="40" style="width: 200px; margin-left: 5em"  placeholder="Website URL"><br>
+            <div class="row" style="margin: 10px; margin-top: 20px; margin-bottom: 23px">
+            <input type="submit" id="submit3"  style="width: 200px" value="Add Venue">
+            </div>
+            </form>
+            </section>
+          </div>
 
 <!-- Intentional footer design to not be easily noticed like a watermark-->
 <footer class= "footer">
