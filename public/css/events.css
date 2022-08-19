@@ -33,7 +33,7 @@
 
   #mysearch  {
     padding-bottom: 2px;
-    box-shadow:  3px 3px 5px 5px darkblue;;
+    box-shadow:  3px 3px 5px 5px darkblue;
   }
 
   .section {
@@ -57,7 +57,9 @@
 
 @media screen and (max-width: 1000px) {header, main, section {
       background: lightblue;
+      color: lightblue;
   }
+
 }
 .theResponse {
   color: black;
