@@ -1,29 +1,13 @@
-.box {
-    box-sizing: border-box;
-    padding: 2px;
+
+.mysearch, #container, #vpics {
+    box-sizing: content-box;
+    padding: 6px;
     margin: 1px;
     text-align: center;
     justify-content: center;
-    display: flex;
     flex-wrap: wrap;
-    background-color: lightgray;
-  }
-  
-  section label {
-    text-align: center;
     display: flex;
-    font-size: 20px;
-  }
-
-  .pure-button:hover {
-    border: 1;
-    font-size: 1rem;;
-    box-shadow: 3px 3px 5px 5px darkblue;
-  }
-
-  #lvenue, #levents {
-    border: 1;
-    font-size: 2rem;
+    background-color: gray;
   }
 
   h2, p {
@@ -34,17 +18,12 @@
     font-weight: bolder;
     text-shadow: 3px 3px 5px darkblue;
     margin-top: 6px;
-  }
-
-  #shawdow  {
-    text-shadow: 3px 3px 5px darkblue;
-    flex-wrap: wrap;
-    display: flex;
+    margin-bottom: 10px;
   }
 
   #mysearch  {
-    padding-bottom: 2px;
-    box-shadow:  3px 3px 5px 5px darkblue;;
+    padding-bottom: 20px;
+    box-shadow:  3px 3px 5px 5px darkblue;
   }
 
   .section {
@@ -68,7 +47,9 @@
 
 @media screen and (max-width: 1000px) {header, main, section {
       background: lightblue;
+      color: lightblue;
   }
+
 }
 .theResponse {
   color: black;

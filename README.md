@@ -49,27 +49,31 @@ WHEN this project is added to students individual Module2
   
   ---  
     
-
+Log in and log out page
 ![Login Page](/public/assets/images/loginPage.jpg)  
 
 ---  
 
-
+Home Page
 ![Home Page](/public/assets/images/homePage.jpg)  
 
 ---  
 
-
+Resources Page
 ![Resources Page](/public/assets/images/resourcesPage.jpg)  
 
 ---  
 
-
-![Events Page](/public/assets/images/eventsPage.jpg)  
+Events page
+![Events Page](/public/assets/images/eventsPageUpdated.png)  
 
 --- 
 
 
+Community page
+![Community Page](/public/assets/images/communityblogPage.png)  
+
+--- 
 Video Tutorial:  
 
 Heroku App link:  https://dashboard.heroku.com/apps/glacial-sierra-66630
