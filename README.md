@@ -72,7 +72,6 @@ Events page
 
 --- 
 
-
 Community page 
 
 ![Community Page](./public/assets/images/communityblogPage.png)  
