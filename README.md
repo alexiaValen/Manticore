@@ -65,13 +65,13 @@ Resources Page
 ---  
 
 Events page
-![Events Page](/public/assets/images/eventsPageUpdated.png)  
+![Events Page](/public/assets/images/eventsPage.jpg)  
 
 --- 
 
 
 Community page
-![Community Page](/public/assets/images/communityblogPage.png)  
+![Community Page](/public/assets/images/communityPage.jpg  
 
 --- 
 Video Tutorial:  
