@@ -49,29 +49,36 @@ WHEN this project is added to students individual Module2
   
   ---  
     
-Log in and log out page
+Log in and log out page  
+
 ![Login Page](/public/assets/images/loginPage.jpg)  
 
 ---  
 
-Home Page
+Home Page  
+
 ![Home Page](/public/assets/images/homePage.jpg)  
 
 ---  
 
-Resources Page
+Resources Page  
+
+
 ![Resources Page](/public/assets/images/resourcesPage.jpg)  
+ 
 
 ---  
 
-Events page
+Events page  
+
 ![Events Page](/public/assets/images/eventsPage.jpg)  
 
 --- 
 
 
-Community page
-![Community Page](/public/assets/images/communityPage.jpg  
+Community page  
+
+![Community Page](/public/assets/images/communityPage).jpg  
 
 --- 
 Video Tutorial:  
