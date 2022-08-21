@@ -48,33 +48,37 @@ WHEN this project is added to students individual Module2
 
   
 ---  
+  
+Log in and log out page  
 
-Login and Log out page
-    
-![Login Page](./public/assets/images/loginPage.jpg)  
-
----  
-Home Page after log in
-
-![Home Page](./public/assets/images/homePage.jpg)  
+![Login Page](/public/assets/images/loginPage.jpg)  
 
 ---  
 
-Resources Page
+Home Page  
 
-![Resources Page](./public/assets/images/resourcesPage.jpg)  
+![Home Page](/public/assets/images/homePage.jpg)  
+
+---  
+
+Resources Page  
+
+
+![Resources Page](/public/assets/images/resourcesPage.jpg)  
+ 
 
 ---  
 
 Events page  
 
-![Events Page](./public/assets/images/eventsPageUpdated.png)  
+![Events Page](/public/assets/images/eventsPage.jpg)  
 
 --- 
 
-Community page 
 
-![Community Page](./public/assets/images/communityblogPage.png)  
+Community page  
+
+![Community Page](/public/assets/images/communityPage).jpg  
 
 --- 
 Video Tutorial:  
@@ -87,7 +91,7 @@ https://glacial-sierra-66630.herokuapp.com/login
 
 GitHub link: https://github.com/alexiaValen/Manticore
 
-
+Api: https://parentviewapi.herokuapp.com/
 
 
 ---
