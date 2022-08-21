@@ -10,7 +10,7 @@
     background-color: gray;
   }
 
-  h2, p {
+ h2, p {
     padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(21, 21, 22);
@@ -19,6 +19,16 @@
     text-shadow: 3px 3px 5px darkblue;
     margin-top: 6px;
     margin-bottom: 10px;
+  }
+
+  p1 {
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(21, 21, 22);
+    font-size: 30px;
+    font-weight: thin;
+    margin-top: 3px;
+    margin-bottom: 5px;
   }
 
   #mysearch  {
@@ -34,6 +44,11 @@
     margin: 40px;
     width: 95%;
     height: 100%;
+  }
+
+  #list  {
+    overflow-wrap: break-word;
+    column-count: 2
   }
 
   /*intended to allow words in footer to be hidden like a watermark by design */
