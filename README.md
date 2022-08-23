@@ -47,8 +47,8 @@ WHEN this project is added to students individual Module2
 ## Usage
 
   
-  ---  
-    
+---  
+  
 Log in and log out page  
 
 ![Login Page](/public/assets/images/loginPage.jpg)  

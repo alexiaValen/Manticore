@@ -22,27 +22,43 @@
             </ul>
         </nav>      
     </header>
-  </div>  
-    
+  </div>    
   <div id="mysearch" class="container">
     <span id="searchevents">   
-      <img src="./assets/Images/Events_Banner.PNG" alt="Background Picture showing various activities and events" style="width:99%;height:400px;background-position: 0%;"></span>
+      <img src="./assets/images/Events_Banner.PNG" alt="Background Picture showing various activities and events" style="width:99%;height:400px;background-position: 0%;"></span>
         <h2>Venues and Events:</h2>
   </div>
     <section>
       <div id="mysearch" class="container">
-        <span id="vpics"><img src="./assets/Images/LocalVenuesPic.PNG" alt="Words Local Venues with building image" style="text-align:center; width:50%; height:60%"></span>
-          <p>Select an option to get results</p>
-            <select name="venue" id="venue">
+        <span id="vpics"><img src="./assets/images/LocalVenuesPic.PNG" alt="Words Local Venues with building image" style="text-align:center; width:50%; height:60%"></span>
+        <p>Click to get venue results</p>
+          {{!-- future enhancement to get by type --}}
+          {{!-- <p>Select an option to get results</p> --}}
+            {{!-- <select name="venue" id="venue"> --}}
             {{!-- Additional options will be enhancement, for now search by AZ to get list --}}
             {{!-- <option value="activitytype">Activity Type</option> --}}
             {{!-- <option value="city">City</option> --}}
-            <option value="AZ">AZ</option>
+            {{!-- <option value="AZ">AZ</option> --}}
             {{!-- <option value="venue">Venue Name</option>     --}}
-            </select>
-              <a class = "btn"><button class="venuesearch" id="lvenue">Click to find local venues</button></a>
+            {{!-- </select>
+            <a class = "btn"><button class="venuesearch" id="lvenue">Click to find local venues</button></a> --}}
+            {{!-- Start Get --}}
+          <div id="list">      
+          <div className="card-va title bold"></div>
+          <div className="card-vn"></div>  
+          <div className="card-vc"></div>
+          <div className="card-vs"></div>
+          <div className="card-vw"></div>
+          <button class="venuesearch" id="venue-btn">Get Venues</button>
+          <div className="vresults" id="venues"></div>
+        </div>
+          </div>
+                <!-- terms here -->
+          </div>
+          </div>
             </div>
-      </section>
+            </section>
+                {{!-- end get --}}
       {{!-- future development to seave or create new venue<section>
         <div id="mysearch" class="container">
               <a class = "btn"><button class="venuesearch" id="lvenue">add or save venue</button></a>
@@ -51,8 +67,9 @@
       </section> --}}
     <section>
      <div id="mysearch" class="container">
-        <span id="vpics"><img src="./assets/Images/SearchEventsPic.PNG" alt="Words Search Events with map pin" style="text-align:center; width:50%; height:60%"> </span>
+        <span id="vpics"><img src="./assets/images/SearchEventsPic.PNG" alt="Words Search Events with map pin" style="text-align:center; width:50%; height:60%"> </span>
           <p>Search activities and events online</p>
+          <label for="googlesearch" style= "color:  black; text-shadow: 3px 3px 5px darkblue">Enter Museums, Park, Sky Diving, Bowling, Climbing, Theater, etc.</label>
 {{!-- Google Programmable search engine with database links --}}
             <script async src="https://cse.google.com/cse.js?cx=7516cfc4d0e364efe"></script>
           <div class="gcse-search"></div>
@@ -60,7 +77,8 @@
     </section>
     <section>
         <div id="mysearch" class="container"><div class="list-group"></div>
-          <p>Add new venue activities here</p>
+        <p1>**Coming Soon**</p1>
+          <p>Add new venue activities here</p>          
             <form style="background-color: lightgray" 'events signup-form' id="eventsform">
             <label for="activityType" style= "color:  black; text-shadow: 3px 3px 5px darkblue">Activity Type</label> <br>
             <input type="text" id="acttype" size="40" style="width: 200px; margin-left: 5em" placeholder="Activity type (aka park)"> <br>
@@ -77,8 +95,8 @@
             </div>
             </form>
             </section>
+          <script src="./js/venue.js"></script> 
           </div>
-
 <!-- Intentional footer design to not be easily noticed like a watermark-->
 <footer class= "footer">
   <section class="Recap">
@@ -90,7 +108,7 @@
       <ul>2022 @ All Rights Reserved</ul>
     </section>
  </footer>
- </div>
+
 
 
  
